@@ -9,15 +9,16 @@ body{
 img{
     margin: 0;
     padding: 0;
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
     object-fit: cover;
     border-radius: 50%;
     border: 2px solid transparent;
     background-color: dimgray;
+
 }
 .plus-icon {
-  color: white; /* Sets the color of the menu lines */
+  color: white; 
   cursor: pointer;
   transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
    width: 40px;
@@ -25,16 +26,16 @@ img{
   border-radius: 50%;
   position: absolute;
   left: 10px;
-  background-color:dimgrey ;
+  background-color:black ;
   
 }
 .plus-icon:hover {
-  color: white; /* Slightly darker aqua on hover */
-  transform: scale(1.1); /* Slight pop effect */
+  color: white; 
+  transform: scale(1.1); 
 }
 .plus-icon:active {
       transform: translateY(1px); 
-  box-shadow: 0 0 5px rgb(183, 187, 187);
+  box-shadow: 0 0 5px rgb(183, 187, 187)s;
 }
 header{
   color: white;
@@ -42,23 +43,145 @@ header{
     flex-direction:row;
     align-items: center;
     justify-content: center;
-    background-color: dimgrey;
-    gap: 20px;
+    background-color: black;
+    gap: 10px;
+}
+.hello-cow{
+  display: flex;
+  gap: 15px;
+  padding: 10px;
+  overflow-x: auto;
 }
 
 .heart-icon{
   position: absolute;
   right: 20px;
 }
-.plue-icon {
-  color: white; 
+.image-container {
+    position: relative;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
   cursor: pointer;
-  transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background-color: black;
-  position: absolute;
-  left:25%;
-  top:12%
+
 }
+.plue-icon {
+position: absolute;
+    bottom: 5px;       
+    right: 1px;          
+    
+    background-color: black;
+    color: white;         
+    
+    padding: 3%;            
+    border-radius: 50%;     
+    border: 2px solid white;  
+    cursor: pointer;           
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Header ko design karna */
+.main-header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;     
+    background-color: transparent;
+
+}
+
+/* Aapka Container */
+.icon-image {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+}
+
+.icon-image img {
+  position: relative;
+  display: inline-block;
+  left: 10px;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.id-name{
+position: relative;
+display: inline-block;
+left: 2px;
+bottom:9px;
+
+font-weight: bold;
+}
+.kala-name{
+margin-left: auto;
+position: relative;
+display: flex;
+align-items: center;
+bottom: 2px;
+right: 30px;
+gap: 10px;
+
+}
+.but-id{
+  width: 70px;
+  height: 30px;
+  border-radius: 5px;
+  border: 2px solid   white;
+  background-color:  transparent;
+  color: white;
+}
+.jaja{
+  margin-left: auto;
+  position: relative;
+  display: flex;
+  left: 12px;
+}
+video{
+  width: 100%;
+}
+.gta-6{
+    display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+}
+.gta-6 img{
+    position: relative;
+  display: inline-block;
+  left: 10px;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+.post-action-bar{
+    display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+
+}
+.action-btn{
+  background-color: black;
+  border: 2px solid transparent;
+}
+.hello{
+  background-color: black;
+  border: 2px solid black;
+  color: white;
+}
+.hidden{
+  padding: 5px;
+  display: none;
+   position: relative;
+   top: 40px;
+   right: 54px;
+   background-color: black;
+}
+
+
+
